@@ -1,0 +1,78 @@
+/* h1 {
+    width: 100%;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(src/light-grey-background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative; 
+}
+img {
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+
+} */
+
+img {
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+
+}
+.heroImage {
+    position: center;
+    text-align: center;
+    color: white;
+  }
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 72px;
+    filter: drop-shadow(30px 10px 4px black);    
+    color: white;
+  }
+#foodHolder {
+    width: 800px;
+    height: auto;
+}
+#recipeImage {
+    margin-top: 10px;
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url(src/light-grey-background.png);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: relative;
+
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cooking Mama</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <script defer type="text/javascript" src="src/index.js"></script>
+
+</head>
+
+<body>
+
+    <!-- For image placeholder for Hero Banner --> 
+  
+    <div id='heroImage'>
+    <img src='src/heroBanner.jpeg' style='width:100%'>
+    <div class ='top-left'> Struggling to figure out what to nom? </div>
+</div>    
+<!-- For image placeholder for recipie --> 
+<div id='recipeCard'>
+    <div class='image-container'>
+        <div class='image-card'>
+  <!--        <h2 id="food-title" class="title">Title of recipe goes here</h2> -->
+	
+  <div id="meals" class="row-meal">
+    <img id='rec-img' alt='recipe-picture'>
+    <h1 id='meal-name'> </h1>
+    <p id='region'></p>
+    <h5>Ingredients:</h5>
+    <ol id='ingredient-list'></ol>
+    <p id='howto'></p>
+  </div>
+
+        <button type="button" id='randomFood'>Generate a random recipe</button>
+
+        <div class='food-list'></div>
+        <ul class='ingredList'></ul>
+              <ol id='ingredient'></ol> 
+        <div class='recipePrintout'></div>
+        <ol id='recipe'></ol>
+    </div>
+    <div id='foodHolder'></div>
+    
+    <div id='sumbitForm'>
+         <select>
+            <option selected disabled>--Search by--</option>
+            <option id='searchIng'>Ingredient</option>
+            <option id='searchName'>Name</option>
+            <option id='searchFirst'>First Letter</option>
+            <option></option>
+        </select>
+            <form class='food-search'>        
+                <input id='food-search' type='text' required> 
+                <input type='submit'> 
+            </form>
+    
+    </div>
+</div>
+</body>
+</html>
