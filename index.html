@@ -9,7 +9,6 @@
   <script defer type="text/javascript" src="src/index.js"></script>
 
 </head>
-
 <body>
 
     <!-- For image placeholder for Hero Banner --> 
@@ -22,6 +21,10 @@
 <div id='recipeCard'>
     <div class='image-container'>
         <div class='image-card'>
+            <div class="likes-section">
+                <span id="fg-likes" class="likes">if you think it's helpful 'click' that oval shape</span>
+                <button id="fg-like-button" class="like-button">♥</button>
+              </div>
   <!--        <h2 id="food-title" class="title">Title of recipe goes here</h2> -->
 	
   <div id="meals" class="row-meal">
@@ -51,9 +54,9 @@
             <option id='searchFirst'>First Letter</option>
             <option></option>
         </select>
-            <form class='food-search'>        
-                <input id='food-search' type='text' required> 
-                <input type='submit'> 
+            <form id='food-search' class='food-searching'>        
+                <input id='food-name-search' type='text' required> 
+                <input id='submit-btn' type='submit'> 
             </form>
     
     </div>
